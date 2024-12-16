@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_sub_head_l_ines",
+  "info": {
+    "displayName": "subHeadLIne"
+  },
+  "options": {},
+  "attributes": {
+    "subHeadline": {
+      "type": "text"
+    }
+  }
+}

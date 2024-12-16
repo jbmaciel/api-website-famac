@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titlePage": {
+      "type": "string",
+      "default": "Unopar Anhanguera",
+      "required": true
+    },
+    "HeadLIne": {
+      "type": "string"
+    },
+    "subHeadline": {
+      "type": "text"
+    },
+    "textCTA": {
+      "type": "string",
+      "default": "Entrar em Contato"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "areas": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.card"
+      ]
+    },
+    "section": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.card",
+        "shared.tittle",
+        "shared.sub-head-l-ine"
+      ]
+    }
+  }
+}

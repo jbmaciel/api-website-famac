@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_cards",
+  "info": {
+    "displayName": "card",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "titlle": {
+      "type": "string"
+    },
+    "textButton": {
+      "type": "string"
+    }
+  }
+}

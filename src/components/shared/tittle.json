@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_tittles",
+  "info": {
+    "displayName": "tittle"
+  },
+  "options": {},
+  "attributes": {
+    "tittle": {
+      "type": "string"
+    }
+  }
+}
