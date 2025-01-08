@@ -12,8 +12,9 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "titlle": {
-      "type": "string"
+    "title": {
+      "type": "string",
+      "required": true
     },
     "duration": {
       "type": "string"
@@ -33,14 +34,15 @@
       ]
     },
     "image01": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "about": {
       "type": "blocks"
